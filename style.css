@@ -1,0 +1,51 @@
+.navbar {
+    color: white;
+    background-color:#7cb2d1;
+    
+    
+}
+
+.nav-link:hover {
+    color : cyan !important;
+}
+.nav-link:active {
+    color : white !important;
+}
+
+
+
+a:hover {
+    color : cyan !important;
+}
+
+a {
+    color: white;
+    padding:.5rem;
+    font-size: 2rem;
+    
+  }
+
+main {
+    font-family: Montserrat;
+    color: white;
+    background-color: white;
+}
+
+.card-text {
+    background-color: lightgray;
+        /* opacity: 80%;  #120039*/
+}
+
+.card-footer {
+    background-color: #7cb2d1;
+    opacity: 100%;
+}
+
+p {
+    padding: 5px;
+}
+
+button {
+    color:#120039;
+    background-color: #7cb2d1;
+}
