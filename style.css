@@ -1,6 +1,8 @@
 .navbar {
     color: white;
     background-color:lightcoral;
+    background-image: url(./assets/header-large.jpg);
+    background-size: 900px;
 }
 
 .nav-link:hover {
@@ -19,7 +21,7 @@ a:hover {
 a {
     color: white;
     padding:.5rem;
-    font-size: 2rem;
+    font-size: 1rem;
     
   }
 
@@ -35,13 +37,9 @@ main {
 }
 
 .card-img-overlay {
-    padding-top: 85%;
+    padding-top: 80%;
     padding-right:0%;
     padding-left:0%;
-}
-
-.card-text {
-    background-color: lightgray;
 }
 
 .card-footer {
@@ -52,7 +50,7 @@ main {
 p {
     padding: 5px;
     color: #120039;
-    font-size: 36px;
+    font-size: 1rem;
 }
 
 button {
