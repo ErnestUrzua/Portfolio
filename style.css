@@ -1,8 +1,6 @@
 .navbar {
     color: white;
     background-color:#7cb2d1;
-    
-    
 }
 
 .nav-link:hover {
@@ -43,9 +41,15 @@ main {
 
 p {
     padding: 5px;
+    color: #120039;
+    font-size: 1.5rem;
 }
 
 button {
     color:#120039;
     background-color: #7cb2d1;
+}
+
+h1 {
+    color:#120039;
 }
