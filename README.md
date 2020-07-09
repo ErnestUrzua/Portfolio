@@ -30,7 +30,6 @@
 - `lg` margins will be present on left and right side of screen.
 
 ## Screenshots
-![alt text](/assets/ "about me")
-![alt text](/assets/portfolio.png "portfolio")
-![alt text](/assets/contact.png "contact")
+![alt text](/assets/aboutme.jpg "about me")
+![alt text](/assets/portfolio.jpg "portfolio")
 
