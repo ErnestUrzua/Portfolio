@@ -24,7 +24,7 @@
   <!-- nav bar -->
   <div class="container">
     <nav class="navbar w-100">
-      <img src="assets/EULogo4.png" style="width:10%; " >
+      <img src="assets/EULogo4.png" style="width:10%; ">
       <a style="font-size: 3rem;">ErnestUrzua</a>
 
       <!-- navbar links align to the right -->
@@ -40,43 +40,46 @@
   <main>
 
     <!-- container is offwhite and holds card with padding -->
-    <div class="container col-md-6 w-100 p-4">
+    <div class="container col-md-12 w-100 p-4">
+      <div class="row">
+        <div class="col-md" style="border-bottom:solid 2px lightgray;">
+          <h1>aboutMe</h1>
+        </div>
+
         <div class="row">
-          <div class="col-md" style="border-bottom:solid 2px lightgray;">
-            <h1>aboutMe</h1>
-          </div>
+          <!-- col 1 -->
+          <div class="col-md m-3">
+            <div class="card" style="max-width: 100%;">
+              <img src="assets/me.jpg" class="card-img" alt="profile pic">
 
-          <div class="row">
-            <!-- col 1 -->
-            <div class="col-md m-3">
-              <div class="card" style="max-width: 100%;">
-                <img src="assets/me.jpg" class="card-img" alt="profile pic">
 
-                <div class="card-text">
-                  <div class=" w3-text-white">
-                    <p> My passion for creation first started in Animation and art. Through the process of creating
-                      I realized that designing, building, and iterating is something that is common amongst many
-                      disciplines, more specifically software development. <br><br>
-                      This shared creation process has naturally led me to software development and its fascinating
-                      power.
-                      Joining both my passions of art and technology only expands my skill set to have a
-                      unique perspective on creation.
-                    </p>
-                    <ul>
-                      <li>Artist</li>
-                      <li>Animator</li>
-                      <li>Programmer</li>
-                    </ul>
+              <div class=" card-img-overlay" style="max-width: 40%; margin:4%; padding:0%; ">
 
-                    <p><button><i class="fa fa-envelope"></i> <a href="mailto:me@ernieurzua.com"
-                          style="font-size: 1rem; color:black">Contact</a></button></p>
+                <p class="card-text" style=" padding: 5px; font-size: .75rem;">
+                  My passion for creation first started in Animation
+                  and art. Through the process of creating
+                  I realized that designing, building, and iterating is something that is common amongst many
+                  disciplines, more specifically software development. <br><br>
+                  This shared creation process has naturally led me to software development and its fascinating
+                  power.
+                  Joining both my passions of art and technology only expands my skill set to have a
+                  unique perspective on creation.
 
-                  </div>
-                </div>
+                <ul>
+                  <li>Artist</li>
+                  <li>Animator</li>
+                  <li>Programmer</li>
+                </ul>
+
+                <button><i class="fa fa-envelope"></i> <a href="mailto:me@ernieurzua.com"
+                    style="font-size: 1rem;">Contact</a></button>
+                </p>
+
               </div>
             </div>
           </div>
         </div>
+      </div>
 
   </main>
 
@@ -85,17 +88,22 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 </body>
 
 <footer>
-  <div class="text-center p-2 card-footer">
+  <div class="p-2 w-100">
     Copyright ernieurzua.com 2020
+    <div class="footer-icons">
+
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/ernesturzua/"><i class="fa fa-linkedin"></i></a>
+      <a href="https://github.com/ErnestUrzua"><i class="fa fa-github"></i></a>
+
+    </div>
   </div>
 </footer>
 

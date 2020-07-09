@@ -38,13 +38,13 @@ main {
 
 .card-img-overlay {
     padding-top: 80%;
-    padding-right:0%;
-    padding-left:0%;
+    opacity: 80%;
 }
 
-.card-footer {
+footer {
     background-color: lightcoral;
     opacity: 100%;
+    text-align: center;
 }
 
 p {
