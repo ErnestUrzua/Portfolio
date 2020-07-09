@@ -1,6 +1,6 @@
 .navbar {
     color: white;
-    background-color:#7cb2d1;
+    background-color:lightcoral;
 }
 
 .nav-link:hover {
@@ -34,20 +34,30 @@ main {
         /* opacity: 80%;  #120039*/
 }
 
+.card-img-overlay {
+    padding-top: 85%;
+    padding-right:0%;
+    padding-left:0%;
+}
+
+.card-text {
+    background-color: lightgray;
+}
+
 .card-footer {
-    background-color: #7cb2d1;
+    background-color: lightcoral;
     opacity: 100%;
 }
 
 p {
     padding: 5px;
     color: #120039;
-    font-size: 1.5rem;
+    font-size: 36px;
 }
 
 button {
     color:#120039;
-    background-color: #7cb2d1;
+    background-color: lightcoral;
 }
 
 h1 {
